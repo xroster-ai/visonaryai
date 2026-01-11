@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visionary AI — B2B Technology Solutions with AI Integration</title>
+  <meta name="description" content="Visionary AI builds B2B technology solutions with AI integration and provides AI consultancy. Real products. Real outcomes." />
+  <meta name="theme-color" content="#ffffff" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    ::selection { background: rgba(59,130,246,.18); }
+    /* subtle premium grid */
+    .bg-grid {
+      background-image:
+        linear-gradient(to right, rgba(15,23,42,.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15,23,42,.06) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900 antialiased">
+  <!-- Top halo -->
+  <div class="pointer-events-none fixed inset-0 -z-10">
+    <div class="absolute -top-24 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-blue-200/50 blur-[120px]"></div>
+    <div class="absolute top-[18rem] right-[-10rem] h-[520px] w-[520px] rounded-full bg-indigo-200/40 blur-[130px]"></div>
+    <div class="absolute bottom-[-14rem] left-[-12rem] h-[520px] w-[520px] rounded-full bg-sky-200/40 blur-[130px]"></div>
+  </div>
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/75 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="#top" class="group inline-flex items-center gap-3">
+        <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" class="text-white">
+            <path d="M12 2l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <div class="leading-tight">
+          <div class="text-sm font-semibold tracking-wide text-slate-900">Visionary AI</div>
+          <div class="text-xs text-slate-500">B2B AI Solutions & Consultancy</div>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-6 md:flex">
+        <a class="text-sm text-slate-600 hover:text-slate-900" href="#solutions">Solutions</a>
+        <a class="text-sm text-slate-600 hover:text-slate-900" href="#projects">Projects</a>
+        <a class="text-sm text-slate-600 hover:text-slate-900" href="#process">Process</a>
+        <a class="text-sm text-slate-600 hover:text-slate-900" href="#security">Security</a>
+        <a class="text-sm text-slate-600 hover:text-slate-900" href="#contact">Contact</a>
+        <a href="#contact" class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+          Book a Call
+        </a>
+      </nav>
+
+      <button id="menuBtn" class="md:hidden rounded-xl border border-slate-200 bg-white px-3 py-2 shadow-sm">
+        <span class="sr-only">Open menu</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="text-slate-800">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden border-t border-slate-200 bg-white md:hidden">
+      <div class="mx-auto grid max-w-7xl gap-2 px-4 py-4 sm:px-6 lg:px-8">
+        <a class="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900" href="#solutions">Solutions</a>
+        <a class="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900" href="#projects">Projects</a>
+        <a class="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900" href="#process">Process</a>
+        <a class="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900" href="#security">Security</a>
+        <a class="rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900" href="#contact">Contact</a>
+        <a class="mt-2 rounded-xl bg-slate-900 px-4 py-2 text-center text-sm font-semibold text-white hover:bg-slate-800" href="#contact">
+          Book a Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top">
+    <section class="relative bg-grid">
+      <div class="mx-auto max-w-7xl px-4 pb-16 pt-14 sm:px-6 sm:pb-20 sm:pt-20 lg:px-8">
+        <div class="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-xs text-slate-600 shadow-sm">
+              <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+              Strategy → Build → Deploy — production-grade AI systems
+            </div>
+
+            <h1 class="mt-5 text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+              Modern B2B technology
+              <span class="bg-gradient-to-r from-slate-900 via-blue-700 to-indigo-700 bg-clip-text text-transparent">
+                with AI that ships
+              </span>
+            </h1>
+
+            <p class="mt-5 max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
+              Visionary AI builds end-to-end B2B products with AI integration:
+              voice agents, computer vision, LLM copilots, automation, analytics, and secure enterprise workflows.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <a href="#contact" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+                Talk to an AI Architect
+              </a>
+              <a href="#projects" class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-50">
+                See our work
+                <svg class="ml-2" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <path d="M7 17L17 7M17 7H9M17 7V15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div class="text-lg font-semibold">B2B SaaS</div>
+                <div class="text-xs text-slate-500">Multi-tenant systems</div>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div class="text-lg font-semibold">LLM Apps</div>
+                <div class="text-xs text-slate-500">RAG + tools</div>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div class="text-lg font-semibold">Voice</div>
+                <div class="text-xs text-slate-500">Agents & automation</div>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <div class="text-lg font-semibold">Vision</div>
+                <div class="text-xs text-slate-500">Scanning & analysis</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero panel -->
+          <div class="relative">
+            <div class="absolute -inset-4 rounded-[2rem] bg-gradient-to-tr from-blue-200/60 via-indigo-200/30 to-sky-200/50 blur-2xl"></div>
+            <div class="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+              <div class="flex items-center justify-between">
+                <div class="text-sm font-semibold text-slate-900">Delivery Snapshot</div>
+                <div class="rounded-full bg-emerald-50 px-3 py-1 text-xs text-emerald-700 ring-1 ring-emerald-200">Production-ready</div>
+              </div>
+
+              <div class="mt-6 grid gap-4">
+                <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-sm font-semibold">AI Integration</div>
+                    <div class="text-xs text-slate-500">LLMs • RAG • Tools</div>
+                  </div>
+                  <div class="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-100">
+                    <div class="h-full w-[86%] rounded-full bg-slate-900"></div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-sm font-semibold">Voice Agents</div>
+                    <div class="text-xs text-slate-500">Low latency • Multilingual</div>
+                  </div>
+                  <div class="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-100">
+                    <div class="h-full w-[78%] rounded-full bg-indigo-700"></div>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-slate-200 bg-white p-4">
+                  <div class="flex items-center justify-between">
+                    <div class="text-sm font-semibold">Computer Vision</div>
+                    <div class="text-xs text-slate-500">Face / image analysis</div>
+                  </div>
+                  <div class="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-100">
+                    <div class="h-full w-[72%] rounded-full bg-blue-700"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                <div class="text-xs text-slate-500">Typical outcomes</div>
+                <div class="mt-2 grid grid-cols-3 gap-3 text-center">
+                  <div class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">
+                    <div class="text-lg font-semibold">Faster</div>
+                    <div class="text-[11px] text-slate-500">workflows</div>
+                  </div>
+                  <div class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">
+                    <div class="text-lg font-semibold">Safer</div>
+                    <div class="text-[11px] text-slate-500">data handling</div>
+                  </div>
+                  <div class="rounded-xl bg-white p-3 shadow-sm ring-1 ring-slate-200">
+                    <div class="text-lg font-semibold">Smarter</div>
+                    <div class="text-[11px] text-slate-500">decisions</div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Capability tags -->
+        <div class="mt-14 flex flex-wrap items-center gap-3 text-xs text-slate-600">
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">B2B SaaS</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">AI Strategy</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">LLM Apps</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">RAG / Knowledge Bases</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">Voice Assistants</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">Computer Vision</span>
+          <span class="rounded-full border border-slate-200 bg-white px-3 py-2 shadow-sm">Enterprise Integrations</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTIONS -->
+    <section id="solutions" class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 class="text-3xl font-semibold tracking-tight">What we do</h2>
+            <p class="mt-2 max-w-2xl text-slate-600">
+              A complete delivery partner: product, engineering, and AI — built for measurable outcomes.
+            </p>
+          </div>
+          <a href="#contact" class="mt-4 inline-flex w-fit items-center justify-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800 sm:mt-0">
+            Get a proposal
+          </a>
+        </div>
+
+        <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-900">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" class="text-white">
+                  <path d="M12 6v12M6 12h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div class="font-semibold">B2B Product Build</div>
+            </div>
+            <p class="mt-4 text-sm leading-relaxed text-slate-600">
+              Full-stack delivery for SaaS platforms and internal tools: multi-tenant architecture, analytics, billing, admin panels, and integrations.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-600">
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Web apps & portals</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Mobile-ready UX</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> APIs & integrations</li>
+            </ul>
+          </div>
+
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-indigo-700">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" class="text-white">
+                  <path d="M4 7h16M7 4v16M17 4v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <div class="font-semibold">AI Integration</div>
+            </div>
+            <p class="mt-4 text-sm leading-relaxed text-slate-600">
+              Integrate AI safely into real workflows: assistants, RAG search, agents, document automation, computer vision, and voice.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-600">
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> LLM apps & RAG</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Voice assistants</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Vision / scanning</li>
+            </ul>
+          </div>
+
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-700">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" class="text-white">
+                  <path d="M12 3l9 6-9 6-9-6 9-6zM3 15l9 6 9-6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div class="font-semibold">AI Consultancy</div>
+            </div>
+            <p class="mt-4 text-sm leading-relaxed text-slate-600">
+              Practical guidance for leadership and teams: AI roadmap, vendor selection, architecture reviews, and hands-on delivery coaching.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-600">
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> AI strategy & ROI</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Governance & risk</li>
+              <li class="flex gap-2"><span class="text-emerald-600">✓</span> Team enablement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold tracking-tight">Proven projects</h2>
+        <p class="mt-2 max-w-2xl text-slate-600">
+          Real products in market — designed around measurable outcomes.
+        </p>
+
+        <div class="mt-10 grid gap-6 lg:grid-cols-3">
+          <!-- Shared card class approach (kept inline for simplicity) -->
+
+          <!-- Wazania -->
+          <div class="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-lg font-semibold">Wazania</div>
+                <div class="text-xs text-slate-500">AI skin analysis for parapharmacies</div>
+              </div>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">Computer Vision</span>
+            </div>
+
+            <p class="mt-4 text-sm text-slate-600">
+              Skin analysis from a selfie, recommending products from the client’s own inventory list.
+            </p>
+
+            <div class="mt-5 grid grid-cols-2 gap-3">
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">+40%</div>
+                <div class="text-xs text-slate-500">conversion uplift (up to)</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">5 min</div>
+                <div class="text-xs text-slate-500">setup</div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <a class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+                 href="https://www.wazania.com" target="_blank" rel="noreferrer">Visit</a>
+              <a class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                 href="#contact">Build similar</a>
+            </div>
+          </div>
+
+          <!-- SpecterLaw -->
+          <div class="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-lg font-semibold">SpecterLaw AI</div>
+                <div class="text-xs text-slate-500">End-to-end platform for law firms</div>
+              </div>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">Voice + LLM</span>
+            </div>
+
+            <p class="mt-4 text-sm text-slate-600">
+              Practice management with AI assistants (research, drafting, automation) built for productivity and security.
+            </p>
+
+            <div class="mt-5 grid grid-cols-3 gap-3">
+              <div class="rounded-2xl bg-slate-50 p-4 text-center ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">40%</div>
+                <div class="text-[11px] text-slate-500">time saved</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 text-center ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">5×</div>
+                <div class="text-[11px] text-slate-500">faster research</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 text-center ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">99%</div>
+                <div class="text-[11px] text-slate-500">satisfaction</div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <a class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+                 href="https://www.specterlawai.com" target="_blank" rel="noreferrer">Visit</a>
+              <a class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                 href="#contact">Request demo build</a>
+            </div>
+          </div>
+
+          <!-- XRoster -->
+          <div class="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-lg font-semibold">XRoster</div>
+                <div class="text-xs text-slate-500">Platform for aviation professionals</div>
+              </div>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">B2B SaaS</span>
+            </div>
+
+            <p class="mt-4 text-sm text-slate-600">
+              Crew tools: roster workflows, swaps, logbook, analytics and AI-powered scheduling insights.
+            </p>
+
+            <div class="mt-5 grid grid-cols-2 gap-3">
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">15k+</div>
+                <div class="text-xs text-slate-500">active crew</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">40+</div>
+                <div class="text-xs text-slate-500">airlines</div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex items-center gap-3">
+              <a class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+                 href="https://www.xroster.com" target="_blank" rel="noreferrer">Visit</a>
+              <a class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                 href="#contact">Discuss your industry</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- NIDAA — same card design as above -->
+        <div class="mt-6">
+          <div class="group rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+            <div class="flex items-start justify-between gap-3">
+              <div>
+                <div class="text-lg font-semibold">Nidaa</div>
+                <div class="text-xs text-slate-500">Voice customer service agent for SMBs & call centers</div>
+              </div>
+              <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs text-slate-700">Voice Agent</span>
+            </div>
+
+            <p class="mt-4 text-sm text-slate-600">
+              A voice agent that answers calls, understands intent, resolves requests, and escalates to humans when needed —
+              with integrations to your CRM / ticketing systems.
+            </p>
+
+            <!-- KPIs: kept as safe “capabilities” instead of claims. Replace with real numbers when you have them. -->
+            <div class="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">24/7</div>
+                <div class="text-xs text-slate-500">always-on coverage</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">Multilingual</div>
+                <div class="text-xs text-slate-500">Arabic / French / English</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-lg font-semibold">Integrations</div>
+                <div class="text-xs text-slate-500">CRM • tickets • telephony</div>
+              </div>
+            </div>
+
+            <div class="mt-6 flex flex-wrap items-center gap-3">
+              <!-- If you have a URL later, put it here -->
+              <a class="inline-flex items-center rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+                 href="#contact">
+                Get a Nidaa plan
+              </a>
+              <a class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-50"
+                 href="#contact">
+                Request a demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process" class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold tracking-tight">How we deliver</h2>
+        <p class="mt-2 max-w-2xl text-slate-600">
+          A clear, low-risk process that gets you to production quickly — with measurable milestones.
+        </p>
+
+        <div class="mt-10 grid gap-6 lg:grid-cols-4">
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-xs text-slate-500">01</div>
+            <div class="mt-2 font-semibold">Discovery</div>
+            <p class="mt-2 text-sm text-slate-600">Use case, ROI, data readiness, constraints, success metrics.</p>
+          </div>
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-xs text-slate-500">02</div>
+            <div class="mt-2 font-semibold">Architecture</div>
+            <p class="mt-2 text-sm text-slate-600">Security, integrations, model approach, scaling and cost plan.</p>
+          </div>
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-xs text-slate-500">03</div>
+            <div class="mt-2 font-semibold">Build & Iterate</div>
+            <p class="mt-2 text-sm text-slate-600">MVP → pilot → production, with measurable weekly progress.</p>
+          </div>
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-xs text-slate-500">04</div>
+            <div class="mt-2 font-semibold">Deploy & Support</div>
+            <p class="mt-2 text-sm text-slate-600">Monitoring, QA, training, and continuous improvement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECURITY -->
+    <section id="security" class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-center">
+          <div>
+            <h2 class="text-3xl font-semibold tracking-tight">Built for enterprise reality</h2>
+            <p class="mt-2 max-w-xl text-slate-600">
+              AI is only valuable if it’s secure, reliable, and maintainable. We build with modern best practices from day one.
+            </p>
+            <ul class="mt-6 space-y-3 text-sm text-slate-600">
+              <li class="flex gap-3"><span class="text-emerald-600">✓</span> Role-based access, audit logs, multi-tenant isolation</li>
+              <li class="flex gap-3"><span class="text-emerald-600">✓</span> Data minimization + configurable retention policies</li>
+              <li class="flex gap-3"><span class="text-emerald-600">✓</span> Model safety: prompt hardening, tool gating, evals</li>
+              <li class="flex gap-3"><span class="text-emerald-600">✓</span> Observability: metrics, tracing, cost controls</li>
+            </ul>
+          </div>
+
+          <div class="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-sm font-semibold">Typical deliverables</div>
+            <div class="mt-4 grid gap-3 sm:grid-cols-2">
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-sm font-semibold">AI Prototype</div>
+                <div class="mt-1 text-xs text-slate-500">Clickable UX + working model</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-sm font-semibold">Production MVP</div>
+                <div class="mt-1 text-xs text-slate-500">Auth, API, DB, monitoring</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-sm font-semibold">Integrations</div>
+                <div class="mt-1 text-xs text-slate-500">CRM, telephony, ERP, docs</div>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200">
+                <div class="text-sm font-semibold">AI Governance</div>
+                <div class="mt-1 text-xs text-slate-500">Policy, evals, guardrails</div>
+              </div>
+            </div>
+
+            <div class="mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <div class="text-xs text-slate-500">Want a fast start?</div>
+              <div class="mt-2 text-sm text-slate-700">
+                Ask for our <span class="font-semibold">AI Readiness Sprint</span>: roadmap, architecture, and a production plan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-2 lg:items-start">
+          <div>
+            <h2 class="text-3xl font-semibold tracking-tight">Let’s build your next advantage</h2>
+            <p class="mt-2 max-w-xl text-slate-600">
+              Tell us what you’re aiming for — we’ll suggest the fastest, safest path to production.
+            </p>
+
+            <div class="mt-6 space-y-4 text-sm text-slate-600">
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <div class="font-semibold">Best for</div>
+                <p class="mt-1 text-slate-600">
+                  AI-enabled SaaS, internal productivity tools, voice automation, computer vision workflows, and end-to-end digital platforms.
+                </p>
+              </div>
+
+              <div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                <div class="font-semibold">What to include</div>
+                <ul class="mt-2 list-disc space-y-1 pl-5 text-slate-600">
+                  <li>Your industry + goal</li>
+                  <li>Any existing system / data sources</li>
+                  <li>Timeline + budget range</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3">
+              <!-- Replace with your booking link -->
+              <a href="https://calendly.com/" target="_blank" rel="noreferrer"
+                 class="inline-flex items-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+                Book a call
+              </a>
+              <a href="mailto:contact@visionaryai.com"
+                 class="inline-flex items-center rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-50">
+                contact@visionaryai.com
+              </a>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="text-sm font-semibold">Request a proposal</div>
+            <p class="mt-1 text-sm text-slate-500">Front-end only — connect to your API endpoint.</p>
+
+            <form class="mt-6 space-y-4" onsubmit="event.preventDefault(); alert('Connect this form to your backend (e.g., /api/lead).');">
+              <div class="grid gap-4 sm:grid-cols-2">
+                <label class="block">
+                  <span class="text-xs text-slate-500">Full name</span>
+                  <input required class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5"
+                         placeholder="Your name" />
+                </label>
+                <label class="block">
+                  <span class="text-xs text-slate-500">Company</span>
+                  <input class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5"
+                         placeholder="Company name" />
+                </label>
+              </div>
+
+              <label class="block">
+                <span class="text-xs text-slate-500">Email</span>
+                <input type="email" required class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5"
+                       placeholder="you@company.com" />
+              </label>
+
+              <label class="block">
+                <span class="text-xs text-slate-500">What do you want to build?</span>
+                <textarea rows="5" required class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5"
+                          placeholder="Describe your goal, data sources, and timeline..."></textarea>
+              </label>
+
+              <div class="grid gap-4 sm:grid-cols-2">
+                <label class="block">
+                  <span class="text-xs text-slate-500">Service</span>
+                  <select class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5">
+                    <option>B2B Product Build</option>
+                    <option>AI Integration</option>
+                    <option>AI Consultancy</option>
+                    <option>Voice Agent / Call Center Automation</option>
+                    <option>Computer Vision / Scanning</option>
+                  </select>
+                </label>
+                <label class="block">
+                  <span class="text-xs text-slate-500">Budget range</span>
+                  <select class="mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm outline-none focus:ring-4 focus:ring-slate-900/5">
+                    <option>Not sure yet</option>
+                    <option>$5k – $15k</option>
+                    <option>$15k – $50k</option>
+                    <option>$50k – $150k</option>
+                    <option>$150k+</option>
+                  </select>
+                </label>
+              </div>
+
+              <button type="submit"
+                      class="w-full rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+                Send request
+              </button>
+
+              <p class="text-xs text-slate-500">
+                By submitting, you agree to be contacted about your request.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-200">
+      <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+          <div class="text-sm text-slate-500">© <span id="year"></span> Visionary AI. All rights reserved.</div>
+          <div class="flex flex-wrap gap-4 text-sm">
+            <a class="text-slate-600 hover:text-slate-900" href="#solutions">Solutions</a>
+            <a class="text-slate-600 hover:text-slate-900" href="#projects">Projects</a>
+            <a class="text-slate-600 hover:text-slate-900" href="#process">Process</a>
+            <a class="text-slate-600 hover:text-slate-900" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn?.addEventListener('click', () => menu.classList.toggle('hidden'));
+    menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.add('hidden')));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
